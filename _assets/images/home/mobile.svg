@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Artboard 2</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-2" sketch:type="MSArtboardGroup">
+            <path d="M48,96 C74.5096693,96 96,74.5096693 96,48 C96,21.4903307 74.5096693,0 48,0 C21.4903307,0 0,21.4903307 0,48 C0,74.5096693 21.4903307,96 48,96 Z" id="Oval-70" fill="#DADDDE" sketch:type="MSShapeGroup"></path>
+            <g id="iphone" sketch:type="MSLayerGroup" transform="translate(28.000000, 19.000000)">
+                <rect id="frame" stroke="#252429" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="57" rx="2"></rect>
+                <rect id="Rectangle-2" stroke="#252429" sketch:type="MSShapeGroup" x="3" y="5" width="34" height="44" rx="1"></rect>
+                <path d="M20.4710145,54.3113772 C21.2994417,54.3113772 21.9710145,53.6398044 21.9710145,52.8113772 C21.9710145,51.9829501 21.2994417,51.3113772 20.4710145,51.3113772 C19.6425873,51.3113772 18.9710145,51.9829501 18.9710145,52.8113772 C18.9710145,53.6398044 19.6425873,54.3113772 20.4710145,54.3113772 Z" id="Oval-1" fill="#252429" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-7" fill="#252429" sketch:type="MSShapeGroup" x="16" y="2" width="5" height="1" rx="1.6"></rect>
+                <path d="M23.5,3 C23.7761424,3 24,2.77614239 24,2.5 C24,2.22385761 23.7761424,2 23.5,2 C23.2238576,2 23,2.22385761 23,2.5 C23,2.77614239 23.2238576,3 23.5,3 Z" id="Oval-3" fill="#252429" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

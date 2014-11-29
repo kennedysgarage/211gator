@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>android-wear</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="android-wear" sketch:type="MSArtboardGroup">
+            <g id="Wear" sketch:type="MSLayerGroup" transform="translate(22.000000, 1.000000)">
+                <rect id="Rectangle-15" fill="#979797" sketch:type="MSShapeGroup" x="5" y="5" width="6" height="53" rx="0.857142857"></rect>
+                <path d="M8,36 C12.4182782,36 16,32.4182782 16,28 C16,23.5817218 12.4182782,20 8,20 C3.58172178,20 0,23.5817218 0,28 C0,32.4182782 3.58172178,36 8,36 Z" id="Oval-4" stroke="#979797" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M8,47 C8.55228478,47 9,46.5522848 9,46 C9,45.4477152 8.55228478,45 8,45 C7.44771522,45 7,45.4477152 7,46 C7,46.5522848 7.44771522,47 8,47 Z" id="Oval-5" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M8,50 C8.55228478,50 9,49.5522848 9,49 C9,48.4477152 8.55228478,48 8,48 C7.44771522,48 7,48.4477152 7,49 C7,49.5522848 7.44771522,50 8,50 Z" id="Oval-5" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M8,53 C8.55228478,53 9,52.5522848 9,52 C9,51.4477152 8.55228478,51 8,51 C7.44771522,51 7,51.4477152 7,52 C7,52.5522848 7.44771522,53 8,53 Z" id="Oval-5" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M8,56 C8.55228478,56 9,55.5522848 9,55 C9,54.4477152 8.55228478,54 8,54 C7.44771522,54 7,54.4477152 7,55 C7,55.5522848 7.44771522,56 8,56 Z" id="Oval-5" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-16" stroke="#979797" sketch:type="MSShapeGroup" x="4" y="0" width="8" height="6" rx="1"></rect>
+                <rect id="Rectangle-17" fill="#979797" sketch:type="MSShapeGroup" x="7" y="2" width="2" height="4" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

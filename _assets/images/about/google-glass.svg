@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>google-glass</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs>
+        <rect id="path-1" x="10" y="3" width="8" height="3"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="google-glass" sketch:type="MSArtboardGroup">
+            <g id="Glass" sketch:type="MSLayerGroup" transform="translate(0.000000, 24.000000)">
+                <rect id="Rectangle-58" fill="#BFBFBF" sketch:type="MSShapeGroup" transform="translate(23.089271, 9.871786) rotate(-41.000000) translate(-23.089271, -9.871786) " x="21.5267706" y="9.24678572" width="3.125" height="1.25" rx="0.625"></rect>
+                <rect id="Rectangle-58" fill="#BFBFBF" sketch:type="MSShapeGroup" transform="translate(33.714271, 9.871786) scale(-1, 1) rotate(-41.000000) translate(-33.714271, -9.871786) " x="32.1517706" y="9.24678572" width="3.125" height="1.25" rx="0.625"></rect>
+                <path d="M23.0175781,0.976575427 C23.0175781,0.976575427 26.0175781,2.8948876 26.0175781,5.47879264 C26.0175781,8.06269768 23.0175781,9.98100986 23.0175781,9.98100986" id="Path-100" stroke="#979797" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                <path d="M31.0175781,0.976575427 C31.0175781,0.976575427 34.0175781,2.8948876 34.0175781,5.47879264 C34.0175781,8.06269768 31.0175781,9.98100986 31.0175781,9.98100986" id="Path-100" stroke="#979797" stroke-width="0.5" sketch:type="MSShapeGroup" transform="translate(32.500000, 5.500000) scale(-1, 1) translate(-32.500000, -5.500000) "></path>
+                <rect id="Rectangle-55" fill="#979797" sketch:type="MSShapeGroup" x="0" y="0" width="60" height="2"></rect>
+                <mask id="mask-2" sketch:name="Rectangle 57" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-57" fill="#CACACA" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <rect id="Rectangle-56" fill="#979797" sketch:type="MSShapeGroup" x="1" y="1" width="11" height="6"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

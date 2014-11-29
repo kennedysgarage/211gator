@@ -1,0 +1,26 @@
+name: "Theron Properties"
+permalink: pretty
+author: Theron Properties
+email: hello@theronindustries.com
+url: http://theronproperties.com
+
+exclude: ["CNAME","editorconfig.txt","Gemfile","Gemfile.lock","README.md", "RAKEFILE"]
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/fonts
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+  js_compressor: uglifier
+  css_compressor: sass
+
+navigation:
+- text: About
+  url: /about/
+- text: Properties
+  url: /properties/
+- text: Contact
+  url: /contact/
