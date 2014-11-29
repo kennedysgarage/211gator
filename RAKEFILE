@@ -1,9 +1,9 @@
-desc 'deploy to Theron Studios via rsync'
+desc 'deploy to Theron Properties via rsync'
 task :deploy do
-  puts 'Deploying to theronstudios.com, silence is golden...'
+  puts 'Deploying to theronproperties.com, silence is golden...'
   user = 'kg41.com'
   server = 's107775.gridserver.com'
-  path = 'domains/theronstudios.com/html'
+  path = 'domains/theronproperties.com/html'
   sh "rsync -rtzh --delete _site/ #{user}@#{server}:#{path}"
   puts 'Cat is out of the bag!'
 end
