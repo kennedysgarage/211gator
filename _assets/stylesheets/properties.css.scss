@@ -1,0 +1,102 @@
+/* ========================================================= Properties ===*/
+/* --------
+-- Cover --
+-------- */
+.cover{
+  margin: 0;
+  height: 400px;
+  margin: 0 0 50px;
+  position: relative;
+  width: 100%;
+  .img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+  }
+  .details{
+    background-color: #fff;
+    .content{
+      padding-bottom: 1em;
+      padding-top: 1em;
+      h1{
+        color: #ccc;
+        display: inline-block;
+        font-size: 18px;
+        margin: 0;
+        strong{
+          font-size: 28px;
+        }
+      }
+      .btn{
+        float: right;
+      }
+    }
+  }
+}
+/* -------------
+-- Highlights --
+------------- */
+.highlights{
+  list-style: none;
+  margin: 0 0 50px;
+  padding: 0;
+  text-align: center;
+  li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    img{
+      display: block;
+      margin: 0 auto 10px;
+      max-height: 70px;
+    }
+    strong{
+      display: block;
+    }
+  }
+}
+/* ------------
+-- Amenities --
+------------ */
+.amenities{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li{
+    border-bottom: 1px solid #aaa;
+    margin: 0;
+    padding: 10px;
+    i{
+      color: #2ECC71;
+      float: right;
+    }
+  }
+}
+
+.iframe{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+  iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+/* ========================================================= Adapt ===*/
+@media all and (min-width: 40rem) {
+  .highlights li{
+    width: 50%;
+  }
+}
+@media all and (min-width: 960px) {
+  .highlights li{
+    width: 25%;
+  }
+}

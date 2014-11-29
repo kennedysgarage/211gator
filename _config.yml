@@ -20,7 +20,7 @@ assets:
 navigation:
 - text: About
   url: /about/
-- text: Properties
-  url: /properties/
+- text: Rentals
+  url: /rentals/
 - text: Contact
   url: /contact/
