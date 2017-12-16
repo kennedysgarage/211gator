@@ -23,8 +23,6 @@ plugins:
   - uglifier
   - sass
 
-destination: "/assets"
-
 sources:
   - _assets/css
   - _assets/fonts

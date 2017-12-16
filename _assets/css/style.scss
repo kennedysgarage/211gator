@@ -27,6 +27,11 @@ html, body{
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+.cover{
+  .img{
+    background-image: asset_url("rentals/211nw28ter/cover.jpg");
+  }
+}
 .torder{
     background-color: #F2412F;
     background-color: #37383A;
