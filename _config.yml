@@ -18,21 +18,18 @@ exclude:
   - README.md
   - RAKEFILE
 
-gems:
+plugins:
   - jekyll-assets
   - uglifier
   - sass
 
-assets:
-  dirname: assets
-  baseurl: /assets/
-  cache: false
+destination: "/assets"
 
 sources:
+  - _assets/css
   - _assets/fonts
   - _assets/images
-  - _assets/javascripts
-  - _assets/stylesheets
+  - _assets/js
 
 navigation:
 - text: About
