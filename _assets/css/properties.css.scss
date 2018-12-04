@@ -5,7 +5,7 @@
 .cover{
   margin: 0;
   height: 400px;
-  margin: 0 0 50px;
+  // margin: 0 0 50px;
   position: relative;
   width: 100%;
   .img{
@@ -17,17 +17,8 @@
   .details{
     background-color: #fff;
     .content{
-      padding-bottom: 1em;
-      padding-top: 1em;
-      h1{
-        color: #ccc;
-        display: inline-block;
-        font-size: 18px;
-        margin: 0;
-        strong{
-          font-size: 28px;
-        }
-      }
+      padding-bottom: 2em;
+      padding-top: 2em;
       .btn{
         float: right;
       }

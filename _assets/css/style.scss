@@ -16,6 +16,7 @@
 html, body{
     background-color: #F2F5F7;
     background-color: #22252D;
+    background-color: #F5F8F9;
     color: #373737;
     font-family: 'Effra Regular', sans-serif;
     font-size: 1em;
@@ -32,6 +33,20 @@ html, body{
     background-image: asset_url("rentals/211nw28ter/cover.jpg");
   }
 }
+.eyebrow{
+  text-transform: uppercase;
+  font-size: 10px;
+  text-align: center;
+}
+h1{
+  color: #aaa;
+  font-size: 22px;
+  margin: 0 0 80px;
+  text-align: center;
+  strong{
+    font-size: 36px;
+  }
+}
 .torder{
     background-color: #F2412F;
     background-color: #37383A;
@@ -46,6 +61,7 @@ section{
     // border-radius: 2px;
     // margin: 0 0 5%;
     background-color: #f0f0f0;
+    background-color: #F5F8F9;
     padding: 5em 0 0;
 }
 .content{
@@ -556,7 +572,7 @@ footer{
     .column.fourth { width: 25%; }
     .column.flow-opposite { float: right; }
     .wrapper{
-      margin: 69px 0 0;
+      // margin: 69px 0 0;
     }
     .logo{
         float: left;
