@@ -1,0 +1,76 @@
+/* ========================================================= Typography ===*/
+// Type Scale: 5 7 9 12 16 21 28 37 50 83 111
+h1, h2, h3, h4 {
+  color: #101131;
+  font-family: 'NoeDisplay', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: normal;
+  line-height: 1.2;
+}
+h1{
+  font-size: 37px;
+font-weight: 700;
+  margin: 30px 0 10px;
+}
+h2{
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  padding: 0;
+}
+h3{
+  font-weight: 400;
+  font-size: 28px;
+  margin: 0 0 5px;
+  margin: 1em 0 0.4em;
+  margin: 0 0 0.4em;
+}
+h4{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  margin: 5px 0;
+}
+p{
+  color: #57586E;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 1.3em;
+}
+strong{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  // color: #101131;
+}
+small, .font_small{
+  font-size: 0.707em;
+}
+ul, ol{
+  margin: 0 0 1.5em;
+}
+em{
+
+}
+li{
+  color: #57586E;
+  font-family: 'ProximaNova', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-size: 16px;
+}
+dl{
+  color: #57586E;
+  font-family: 'ProximaNova', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+dt{
+  font-weight: bold;
+}
+dd{
+  color: #57586E;
+  font-size: 1em;
+  margin: 0 0 10px 10px;
+}

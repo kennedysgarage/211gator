@@ -1,200 +1,418 @@
 ---
-layout: single
-hero: 211nw28ter
+layout: default
 ---
+<div class="container">
 
-<div id="rentals">
+<section>
 
-  <div class="cover">
-    <div class="img"></div>
-  </div><!--/cover-->
+  <grid columns=12>
+    <c span=1-8 span-s=row>
+      <h1>211 NW 28th Terrace</h1>
+    </c>
+    <c span=9-12 span-s=row>
+      <div class="availability">
+        <p class="available">Available for rent</p>
+      </div><!--/availability-->
+    </c>
+  </grid>
 
-  <section>
+  <grid columns=12>
+    <c span=1-12 span-s=row>
+      <img src="{{site.baseurl}}/assets/img/house.png">
+    </c>
+  </grid>
 
-    <div class="container">
-
-    <div class="content">
-      <div class="row">
-
-        <div class="column full">
-          <div class="eyebrow">For Rent</div>
-          <h1><strong>211 NW 28th Ter</strong><br/> Gainesville, FL 32607</h1>
-          </div><!--/col-->
-
-        <div class="column full">
-
-          <ul class="highlights clearfix">
-            <li>
-              {% asset rentals/availability.svg %}
-              <strong>Available July 1st, 2019</strong>
-              <span>12 month leases</span>
-            </li>
-            <li>
-              {% asset rentals/house.svg %}
-              <strong>3 Bedroom / 2 Bath</strong>
-              <span>Ranch-style home</span>
-            </li>
-            <li>
-              {% asset rentals/size.svg %}
-              <strong>1,645 sq ft</strong>
-              <span>Open floor plan</span>
-            </li>
-            <li>
-              {% asset rentals/price.svg %}
-              <strong>$1,950 per month</strong>
-              <span>Includes everything</span>
-            </li>
-          </ul>
-
-          <h2><span>Overview</span></h2>
-        </div><!--/column-->
-
-          <div class="column three-fourth">
-          <p>Located in a fantastic and quiet neighborhood. Within walking distance to the Law School &amp; UF. Excellent for professionals or graduate students. This house is move-in ready includes everything but your furniture. It was recently renovated with fresh paint and new carpet.</p>
-          <p>There is an attached mother-in-law suite in the back that is part-time owner occupied. There is one common room that has jointed access to the washer and dryer. The house does not include the garage. Pets will be considered on a case by case basis.</p>
-        </div><!--/column-->
-
-          <div class="column fourth">
-            <a href="https://www.google.com/maps/place/211+NW+28+Terrace,+Gainesville,+FL+32607/@29.6553531,-82.3626899,15z/data=!4m2!3m1!1s0x88e8a3673dfc50a3:0xd7793f35f1c8776f?hl=en-US">{% asset rentals/211nw28ter/map.jpg %}</a>
-          </div><!--/column-->
-
-          <div class="column full">
-            <h3>Amenities</h3>
-          </div><!--/column-->
-
-          <div class="column half">
-          <ul class="amenities">
-            <li>Water and Electricity <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Cox high speed internet <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Cox basic cable <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Central Heating and Air <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Washer and dryer <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Dishwasher <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Refrigerator <i class="ss-icon ss-standard">&#x2713;</i></li>
-          </ul>
-        </div><!--/column-->
-
-        <div class="column half">
-          <ul class="amenities">
-            <li>Fireplace <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Huge orange tree <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Large yard <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Lawn services <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Pest control <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Trash pickup <i class="ss-icon ss-standard">&#x2713;</i></li>
-            <li>Smoke-free <i class="ss-icon ss-standard">&#x2713;</i></li>
-          </ul>
-        </div><!--/column-->
-
-          <div class="column full">
-
-
-
-	<ul class="tabs clearfix">
-		<li class="tab-link current" data-tab="tab-1">Photo</li>
-		<li class="tab-link" data-tab="tab-2">Google Sphere</li>
-		<li class="tab-link" data-tab="tab-3">Steet View</li>
-		<li class="tab-link" data-tab="tab-4">Map</li>
-	</ul>
-
-	<div id="tab-1" class="tab-content current">
-    <div class="flexslider">
-      <ul class="slides">
-        <li>
-          {% asset rentals/211nw28ter/pictures/kitchen.png %}
-          <p class="flex-caption">Kitchen</p>
-        </li>
-        <li>
-          {% asset rentals/211nw28ter/pictures/kitchenlivingroom.png %}
-          <p class="flex-caption">Kitchen \ Living Room</p>
-        </li>
-        <li>
-          {% asset rentals/211nw28ter/pictures/livingroom.png %}
-          <p class="flex-caption">Living Room</p>
-        </li>
-        <li>
-          {% asset rentals/211nw28ter/pictures/dinningroom-a.png %}
-          <p class="flex-caption">Dinning Room</p>
-        </li>
-        <li>
-          {% asset rentals/211nw28ter/pictures/dinningroom-b.png %}
-          <p class="flex-caption">Dinning Room</p>
-        </li>
-        <li>
-          {% asset rentals/211nw28ter/pictures/bedroom1.png %}
-          <p class="flex-caption">Bedroom #1</p>
-        </li>
-        <li>
-          {% asset rentals/211nw28ter/pictures/bedroom2.png %}
-          <p class="flex-caption">Bedroom #1</p>
-        </li>
-        <li>
-          {% asset rentals/211nw28ter/pictures/master.png %}
-          <p class="flex-caption">Master Bedroom</p>
-        </li>
-        <li>
-          {% asset rentals/211nw28ter/pictures/master-closet.png %}
-          <p class="flex-caption">Master Bedroom Closet</p>
-        </li>
-      </ul>
-    </div><!--/flexslider-->
-	</div><!--/tab-content-->
-	<div id="tab-2" class="tab-content">
-    <div class="iframe">
-      <iframe width="560" height="315" frameborder="0" allowfullscreen="" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?layer=c&amp;panoid=T6r_MxA6hLwAAAQYELmk3Q&amp;ie=UTF8&amp;source=embed&amp;output=svembed&amp;cbp=13%2C217.4628%2C%2C0%2C0"></iframe>
-    </div><!--/iframe-->
-	</div><!--/tab-content-->
-	<div id="tab-3" class="tab-content">
-    <div class="iframe">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1427677880618!6m8!1m7!1sD6bZLqxP0E_MrCNe5XNjLg!2m2!1d29.654488!2d-82.365449!3f97!4f0!5f1.4214797185029173" width="800" height="600" frameborder="0" style="border:0"></iframe>
-    </div><!--/iframe-->
-	</div><!--/tab-content-->
-	<div id="tab-4" class="tab-content">
-    <div class="iframe">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3467.2521020630193!2d-82.365179!3d29.654458!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e8a3673dfc50a3%3A0xd7793f35f1c8776f!2s211+NW+28+Terrace%2C+Gainesville%2C+FL+32607!5e0!3m2!1sen!2sus!4v1427678344918" width="600" height="450" frameborder="0" style="border:0"></iframe>
-    </div><!--/iframe-->
-	</div><!--/tab-content-->
-
-
-          <h3>Required to Lease</h3>
-          <ul>
-            <li>Credit &amp; criminal background check application at a cost of $50 per tenant.</li>
-            <li>First month's rent and security deposit.</li>
-            <li>Parental guarantor or other approved guarantor to co-sign the lease unless tenant has adequate monthly income or can provide an additional deposit.</li>
-            <li>Signed lease.</li>
-          </ul>
-
-        </div><!--/column-->
-      </div><!--/row-->
-
-</div><!--/content-->
-
-
-  </div><!--/container-->
-  </section>
-
-</div><!--/rentals-->
-
-<section class="cta">
-  <div class="container">
-<div class="content">
-
-
-  <section class="intro">
-  	<div class="container">
-  		<div class="content">
-  			<div class="row">
-  				<div class="column full">
-  					<h1>Let us know how we can help you.</h1>
-  						<p>We take pride in our work and our relationships,<br/> text/call <a href="tel:1-347-688-8864">347-688-8864</a> or email <a href="mailto:kennedysgarage@gmail.com">kennedysgarage@gmail.com</a>.</p>
-  				</div><!--/column-->
-  			</div><!--/row-->
-  		</div><!--/content-->
-  	</div><!--/container-->
-  </section>
-
-
-
-    </div><!--/content-->
-</div><!--/container-->
 </section>
+
+<section class="contact">
+  <grid columns=12>
+    <c span=1-12 span-s=row>
+    <p class="eyebrow">Contact Me</p>
+    <h3>Questions about the house, pricing, or availability?</h3>
+    </c>
+    <c span=2-6 span-s=row>
+      <a href="tel:1-212-951-1941" class="btn btn-primary">212-951-1941</a>
+    </c>
+    <c span=7-11 span-s=row>
+      <a href="mailto:kennedysgarage@gmail.com?subject=211 Gator" class="btn btn-outline">kennedysgarage@gmail.com</a>
+    </c>
+  </grid>
+</section>
+
+<section>
+
+  <grid columns=12>
+    <c span=1-6 span-s=row>
+      <div class="location">
+      <h2><span>🐊</span> Location </h2>
+      <p><span>211 NW 28th Terrace<br/>Gainesville, FL 32607</span></p>
+      <p>Black Acres Neighborhood</p>
+      </div><!--/location-->
+    </c>
+    <c span=7-12 span-s=row>
+      <div class="map">
+        <div class="hotspot">
+          <div class="markglow"></div>
+          <div class="mark"></div>
+        </div>
+        <a href="https://www.google.com/maps/place/211+NW+28+Terrace,+Gainesville,+FL+32607/@29.6544504,-82.367402,17z/data=!3m1!4b1!4m5!3m4!1s0x88e8a3673e030d21:0x529deff28b07b55c!8m2!3d29.6544504!4d-82.3652133"><img src="{{site.baseurl}}/assets/img/map.png"></a>
+      </div><!--/map-->
+    </c>
+  </grid>
+
+</section>
+
+<section>
+
+  <grid columns=12>
+    <c span=1-12 span-s=row>
+      <h2><span>🏡</span> Overview</h2>
+    </c>
+  </grid>
+
+  <grid columns=12>
+    <c span=1-3 span-s=row>
+      <div class="overview">
+        <img src="{{site.baseurl}}/assets/img/icon-time.svg">
+        <p><strong>Available July 1st</strong><br/>12 month lease</p>
+      </div>
+    </c>
+    <c span=4-6 span-s=row>
+      <div class="overview">
+        <img src="{{site.baseurl}}/assets/img/icon-house.svg">
+        <p><strong>3 Bedroom / 2 Bath</strong><br/>Ranch-style home</p>
+      </div>
+    </c>
+    <c span=7-9 span-s=row>
+      <div class="overview">
+        <img src="{{site.baseurl}}/assets/img/icon-size.svg">
+        <p><strong>1,645 sq ft</strong><br/>Open floor plan</p>
+      </div>
+    </c>
+    <c span=10-12 span-s=row>
+      <div class="overview">
+        <img src="{{site.baseurl}}/assets/img/icon-money.svg">
+        <p><strong>$1,950 per month</strong><br/>Includes utilities</p>
+      </div>
+    </c>
+    <c span=1-12 span-s=row>
+      <p>Located in a fantastic and quiet neighborhood. Within walking distance to the Law School & UF. Excellent for professionals or graduate students. This house is move-in ready includes everything but your furniture. It was recently renovated with fresh paint and new carpet.</p>
+      <p>There is an attached mother-in-law suite in the back that is part-time owner occupied. There is one common room that has jointed access to the washer and dryer. The house does not include the garage. Pets will be considered on a case by case basis.</p>
+    </c>
+  </grid>
+
+</section>
+
+<section>
+
+  <grid columns=12>
+    <c span=1-12 span-s=row>
+      <h2><span>🛎</span> Amenities</h2>
+      <p>The follow items are included in the price of rent.</p>
+    </c>
+  </grid>
+  <grid columns=10>
+    <c span=1-2 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-water_gas_electricity.svg">
+        <p>Water, Gas, &amp; Electricity</p>
+      </div>
+    </c>
+    <c span=3-4 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-internet.svg">
+        <p>COX High Speed Internet</p>
+      </div>
+    </c>
+    <c span=5-6 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-tv.svg">
+        <p>YouTube TV</p>
+      </div>
+    </c>
+    <c span=7-8 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-heat_ac.svg">
+        <p>Central Heating &amp; Air</p>
+      </div>
+    </c>
+    <c span=9-10 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-washer_dryer.svg">
+        <p>Washer &amp; Dryer</p>
+      </div>
+    </c>
+  </grid>
+  <grid columns=10>
+    <c span=1-2 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-dishwasher.svg">
+        <p>Dishwasher</p>
+      </div>
+    </c>
+    <c span=3-4 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-refrigerator.svg">
+        <p>Refrigerator</p>
+      </div>
+    </c>
+    <c span=5-6 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-fireplace.svg">
+        <p>Fireplace</p>
+      </div>
+    </c>
+    <c span=7-8 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-fruit.svg">
+        <p>Fruit trees</p>
+      </div>
+    </c>
+    <c span=9-10 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-yard.svg">
+        <p>Large yard</p>
+      </div>
+    </c>
+  </grid>
+  <grid columns=10>
+    <c span=1-2 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-lawn_service.svg">
+        <p>Lawn services</p>
+      </div>
+    </c>
+    <c span=3-4 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-pest_control.svg">
+        <p>Pest control</p>
+      </div>
+    </c>
+    <c span=5-6 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-trash.svg">
+        <p>Trash pickup</p>
+      </div>
+    </c>
+    <c span=7-8 span-s=row>
+      <div class="amenities">
+        <img src="{{site.baseurl}}/assets/img/icon-smoke_free.svg">
+        <p>Smoke-free</p>
+      </div>
+    </c>
+  </grid>
+
+</section>
+
+<section>
+
+  <grid columns=12>
+    <c span=1-12 span-s=row>
+      <h2><span>📸</span> Photos</h2>
+    </c>
+
+    <c span=1-6 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-living.png">
+        <figcaption>Living Room with fireplace</figcaption>
+      </figure>
+    </c>
+
+    <c span=7-12 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-kitchen.png">
+        <figcaption>Kitchen</figcaption>
+      </figure>
+    </c>
+
+    <c span=1-6 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-entertainment.png">
+        <figcaption>Entertainment Room</figcaption>
+      </figure>
+    </c>
+
+    <c span=7-12 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-dining.png">
+        <figcaption>Dining Room</figcaption>
+      </figure>
+    </c>
+
+    <c span=1-4 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-hall1.png">
+        <figcaption>Hallway - Front Door</figcaption>
+      </figure>
+    </c>
+
+    <c span=5-8 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-hall2.png">
+        <figcaption>Hallway - Living Room</figcaption>
+      </figure>
+    </c>
+
+    <c span=9-12 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-hall3.png">
+        <figcaption>Hallway - Bedrooms</figcaption>
+      </figure>
+    </c>
+
+    <c span=1-6 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-master1.png">
+        <figcaption>Master Bedroom</figcaption>
+      </figure>
+    </c>
+
+    <c span=7-12 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-master2.png">
+        <figcaption>Master Bedroom</figcaption>
+      </figure>
+    </c>
+
+    <c span=1-6 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-master_bath1.png">
+        <figcaption>Master Bathroom</figcaption>
+      </figure>
+    </c>
+
+    <c span=7-12 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-master-bath2.png">
+        <figcaption>Master Bathroom</figcaption>
+      </figure>
+    </c>
+
+    <c span=1-6 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-bed2a.png">
+        <figcaption>Bedroom Number Two</figcaption>
+      </figure>
+    </c>
+
+    <c span=7-12 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-bed2b.png">
+        <figcaption>Bedroom Number Two</figcaption>
+      </figure>
+    </c>
+
+    <c span=1-6 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-bed3a.png">
+        <figcaption>Bedroom Number Three</figcaption>
+      </figure>
+    </c>
+
+    <c span=7-12 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-bed3b.png">
+        <figcaption>Bedroom Number Three</figcaption>
+      </figure>
+    </c>
+
+    <c span=1-6 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-bath1.png">
+        <figcaption>Common Bathroom</figcaption>
+      </figure>
+    </c>
+
+    <c span=7-12 span-s=row>
+      <figure>
+        <img src="{{site.baseurl}}/assets/img/house-bath2.png">
+        <figcaption>Common Bathroom</figcaption>
+      </figure>
+    </c>
+
+  </grid>
+
+</section>
+
+<section>
+
+  <grid columns=12>
+    <c span=1-12 span-s=row>
+      <h2><span>🗣</span> Testimonials</h2>
+    </c>
+    <c span=1-3 span-s=row>
+      <p><strong>Joseph U.</strong><br/>2018 - 2020</p>
+    </c>
+
+    <c span=4-12 span-s=row>
+      <p>“The past two years renting at C.M. Kennedy’s house have been the best housing experience I’ve ever had in Gainesville. Beautiful house in a chill, quaint neighborhood. C.M. Kennedy has been extremely helpful whenever we needed any house repairs and was always very considerate of me and the other housemates. I’m sad to be moving out, but I’m very grateful to have found such an ideal living space. If you’re looking for a quality place to live at for a very affordable price, look no further. Thanks again C.M. Kennedy :)”</p>
+    </c>
+
+    <c span=1-3 span-s=row>
+      <p><strong>Jessie W.</strong><br/>2018 - 2020</p>
+    </c>
+
+    <c span=4-12 span-s=row>
+      <p>“The house on NW 28th Terrace is wonderful. I lived their for 2 years and enjoyed every moment of it. It’s in the most ideal location for Gainesville - smack dab in the middle of everything - midtown, downtown, Archer Rd, Jonesville and 39th Ave. If you live in Gainesville, being central is VERY convenient, especially on heavy traffic days/times. The street is quiet, the lawn and home both have plenty of space. The landlord is very attentive to the needs of tenants, it made the experience that much more easy and enjoyable. ”</p>
+    </c>
+  </grid>
+
+</section>
+
+<section>
+
+  <grid columns=12>
+    <c span=1-12 span-s=row>
+      <h2><span>🌎</span> Google Sphere</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!4v1588821784937!6m8!1m7!1sCAoSLEFGMVFpcE1FczlyUlltdjlJWklMMHJpZzM0ZWEtY0h3bjBGcVF1Q3V2QXVF!2m2!1d29.654458!2d-82.365179!3f213.02!4f-2.5!5f0.4000000000000002" width="820" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </c>
+  </grid>
+
+</section>
+
+<section>
+
+  <grid columns=12>
+    <c span=1-12 span-s=row>
+      <h2><span>🔑</span> ️Required to lease</h2>
+      <ul>
+        <li>Credit &amp; criminal background check application at a cost of $50 per tenant.</li>
+        <li>First month's rent and security deposit.</li>
+        <li>Parental guarantor or other approved guarantor to co-sign the lease unless tenant has adequate monthly income or can provide an additional deposit.</li>
+        <li>Signed lease.</li>
+      </ul>
+    </c>
+  </grid>
+
+</section>
+
+<section class="contact">
+  <grid columns=12>
+    <c span=1-12 span-s=row>
+    <p class="eyebrow">Contact Me</p>
+    <h3>Questions about the house, pricing, or availability?</h3>
+    </c>
+    <c span=2-6 span-s=row>
+      <a href="tel:1-212-951-1941" class="btn btn-primary">212-951-1941</a>
+    </c>
+    <c span=7-11 span-s=row>
+      <a href="mailto:kennedysgarage@gmail.com?subject=211 Gator" class="btn btn-outline">kennedysgarage@gmail.com</a>
+    </c>
+  </grid>
+</section>
+
+<section>
+
+  <grid columns=12>
+    <c span=1-9 span-s=row>
+      <h2><span>👋</span> Hello </h2>
+      <p>My name is C.M. Kennedy, and I am the property owner. I purchased this house because I planned on living in Gainesville forever, and it was close to school. I personally love the two giant orange trees, the huge oak tree, and the quiet neighborhood.  Unfortunately, my job required me to move to NYC and now San Francisco. I don't make it back to the house much, but I do love taking care of it from afar. Feel free to reach out to me if you have any questions, and I look forward to virtually meeting you.</p>
+    </c>
+    <c span=10-12 span-s=row>
+      <img src="{{site.baseurl}}/assets/img/cmk.png">
+    </c>
+  </grid>
+
+</section>
+
+</div><!--/container-->

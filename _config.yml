@@ -1,38 +1,70 @@
-name: "Theron Properties"
-author: "Kennedy"
-email: "kennedy@theronproperties.com"
-url: "http://theronproperties.com"
-title: "Theron Properties"
-description:
-permalink: pretty
-markdown: kramdown
-highlighter: rouge
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-include: ['_pages']
+title: 211 NW 28th Terrace
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
+# Build settings
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
 exclude:
-  - CNAME
-  - editorconfig.txt
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - RAKEFILE
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
-plugins:
-  - jekyll-assets
-  - uglifier
-  - sass
+sass:
+    sass_dir: _sass
 
-sources:
-  - _assets/css
-  - _assets/fonts
-  - _assets/images
-  - _assets/js
 
-navigation:
-- text: About
-  url: /about/
-- text: Rentals
-  url: /rentals/
-- text: Contact
-  url: /contact/
+assets:
+  sources:
+    - _assets/fonts
+    - _assets/js
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true

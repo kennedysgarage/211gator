@@ -1,5 +1,5 @@
-# Jekyll
 _site
+.asset-cache
 .jekyll-cache
 
 # Numerous always-ignore extensions
@@ -13,6 +13,7 @@ _site
 *.vi
 *~
 *.sass-cache
+*.asset-cache/
 
 # OS or Editor folders
 .DS_Store
